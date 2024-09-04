@@ -1,6 +1,8 @@
+import logo from "../images/logo.svg";
+
 function Header(){
     return(<header>
-        <img src="../images/logo.svg" alt="Logo"/>
+        <img src={logo} alt="Logo"/>
     </header>);
 }
 

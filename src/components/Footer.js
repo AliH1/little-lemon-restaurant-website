@@ -1,7 +1,9 @@
+import logo from "../images/logo.svg";
+
 function Footer(){
     return(
         <footer>
-            <img src="../images/logo.svg" alt="Logo"/>
+            <img src={logo} alt="Logo"/>
         </footer>
         );
 }
