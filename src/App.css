@@ -36,11 +36,13 @@ nav ul li {
 
 h3 {
   font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
 
 /* header css elements below*/
 
-header section{
+header section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -49,7 +51,7 @@ header section{
 header {
   background-color: #495E57;
   font-family: 'Markazi Text', serif;
-  height: 25rem;
+  height: 30rem;
   padding: 5rem;
 }
 
@@ -76,13 +78,12 @@ h1 {
   font-size: 65px;
 }
 
-h1, h2 {
-  padding: 0;
-  margin: 0;
+header h1, header h2 {
+  margin-top: -1.5rem;
 }
 
 header button {
-  margin-top: 10rem;
+  margin-top: 5rem;
   background-color: #F4CE14;
   padding: 1rem;
   color: black;
@@ -92,11 +93,40 @@ header button {
   font-weight: bold;
 }
 
-header button:hover {
-  background-color: #e9f414 ;
+header button:hover, main button:hover {
+  opacity: 0.5;
+}
+
+/* main css elements below*/
+main > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem
+}
+
+main h2 {
+  font-size: 40px;
+}
+
+main  {
+  padding-left: 20rem;
+  padding-right: 15rem;
+  padding-bottom: 2rem;
+}
+
+main button {
+  background-color: #F4CE14;
+  padding: 1rem;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
 /* footer css elements below*/
+
 footer section {
   justify-items: center;
   width:80%;
@@ -105,7 +135,8 @@ footer section {
 }
 
 footer {
-  padding: 1rem;
+  padding-top: 1rem;
+  background-color: rgb(231, 231, 231);
 }
 
 footer ul li {
