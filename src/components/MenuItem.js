@@ -2,7 +2,7 @@ import { Card, CardBody, CardFooter, Image, Stack, Heading, Text, Divider, Butto
 
 function MenuItem(props){
     return(
-      <Card maxW='sm' bg='gray.100'>
+      <Card maxW='sm' height='xl' bg='gray.100'>
         <CardBody>
           <Image src={props.src} alt={props.alt} borderRadius='lg'/>
             <Stack mt='6' spacing='3'>
