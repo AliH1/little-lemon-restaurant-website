@@ -165,3 +165,39 @@ footer img {
   }
 }
 
+/* BookingForm css elements below*/
+
+.booking-form {
+  background-color:#495E57;
+}
+
+.booking-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 8rem;
+  padding-bottom: 2rem;
+}
+
+.booking-form label {
+  color: #F4CE14;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.booking-form input {
+  margin-bottom: 2rem;
+  width: 15rem;
+}
+
+.booking-form select {
+  margin-bottom: 2rem;
+  width: 15rem;
+}
+
+.booking-form .submitBtn {
+  margin-top: 5rem;
+}
+
