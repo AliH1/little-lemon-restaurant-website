@@ -8,7 +8,7 @@ function BookingPage(props){
         <>
           <Nav/>
           <main>
-            <BookingForm availableTimes={props.availableTimes}/>
+            <BookingForm availableTimes={props.availableTimes} dispatch={props.dispatch}/>
           </main>
           <Footer/>
         </>

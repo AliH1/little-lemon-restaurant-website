@@ -11,11 +11,16 @@ function BookingForm(props){
     e.preventDefault();
   }
 
+  const handleDateChange = (e) => {
+    setDate(e.target.value);
+    props.dispatch(e.target.value);
+  }
+
   return(
     <section className="booking-form">
       <form onsubmit={handleSubmit} className="booking-form-container">
         <label htmlFor="res-date">Choose date</label>
-        <input type="date" id="res-date" onChange={(e) => setDate(e.target.value)} />
+        <input type="date" id="res-date" onChange={handleDateChange} />
         <label htmlFor="res-time">Choose time</label>
         <select id="res-time " onChange={(e) => setTime(e.target.value)}>
           {props.availableTimes.map(time => (
