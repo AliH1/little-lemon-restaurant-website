@@ -13,7 +13,7 @@ function MenuItem(props){
         </CardBody>
         <Divider />
         <CardFooter>
-            <Button variant='ghost' colorScheme='black'>
+            <Button aria-label="order delivery" variant='ghost' colorScheme='black'>
               Order a Delivery
             </Button>
         </CardFooter>

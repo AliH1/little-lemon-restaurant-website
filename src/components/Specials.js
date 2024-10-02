@@ -12,7 +12,7 @@ function Specials(){
             <h2>This Weeks Specials!</h2>
           </GridItem>
           <GridItem rowSpan={1} colStart={4} colEnd={5}>
-            <button className="menuBtn">Online Menu</button>
+            <button aria-label="menu" className="menuBtn">Online Menu</button>
           </GridItem>
           <GridItem rowStart={2} rowSpan={1} colStart={2} colEnd={3}>
             <MenuItem height="100rem" src={salad}

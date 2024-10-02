@@ -94,7 +94,7 @@ h1 {
   font-weight: bold;
 }
 
-.about button:hover, .specials button:hover {
+.about button:hover, .specials button:hover, .booking-form .submitBtn:hover {
   opacity: 0.5;
 }
 
@@ -199,5 +199,12 @@ footer img {
 
 .booking-form .submitBtn {
   margin-top: 5rem;
+  background-color: #F4CE14;
+  padding: 1rem;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: 12pt;
+  font-weight: bold;
 }
 

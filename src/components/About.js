@@ -10,7 +10,7 @@ function About(){
                     <h2>Chicago</h2>
                     <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist.</p>
                     <Link to="/booking">
-                        <button>Reserve Table</button>
+                        <button aria-label="reserve table" >Reserve Table</button>
                     </Link>
                 </div>
                 <div>
