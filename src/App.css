@@ -77,6 +77,7 @@ h3 {
 h1 {
   color: #F4CE14;
   font-size: 65px;
+  font-weight: bold;
 }
 
 .about h1, .about h2 {
@@ -178,7 +179,12 @@ footer img {
   justify-content: center;
   gap: 0.5rem;
   padding: 8rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+.booking-form h1 {
+  font-family: 'Markazi Text', serif;
+  margin-bottom: 5rem;
 }
 
 .booking-form label {
