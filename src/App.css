@@ -230,3 +230,11 @@ footer img {
   font-size: 12pt;
   font-weight: bold;
 }
+
+.booking-form .err-message {
+  color: red;
+  font-size: 12px;
+  margin-top: -2rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
