@@ -15,8 +15,8 @@ function BookingForm(props){
 
   function validiateDate(e){
     const today = new Date();
-    const date = new Date(e.target.value);
-    if(today > date)
+    const newDate = new Date(e.target.value);
+    if(today > newDate)
       return "Please pick a date that hasn't elapsed";
     return "";
   }
