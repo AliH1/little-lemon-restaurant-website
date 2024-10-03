@@ -214,3 +214,19 @@ footer img {
   font-weight: bold;
 }
 
+.confirm-booking-container {
+  padding: 10rem;
+  background-color: #495E57;
+  text-align: center
+}
+
+.confirm-booking-container button {
+  margin-top: 5rem;
+  background-color: #F4CE14;
+  padding: 1rem;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: 12pt;
+  font-weight: bold;
+}
